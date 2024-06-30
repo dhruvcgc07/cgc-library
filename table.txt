@@ -1,0 +1,61 @@
+<table style="position: absolute; top:800px; left: 10%; width: 90%; border: solid rgb(252, 251, 251) 1px;
+          border-collapse: collapse; ">
+         <tr style="border: solid rgb(252, 251, 251) 1px;
+    border-collapse: collapse;">
+        <td class="probooks" style="width: 3%;">Sr No.</td>
+        <td class="probooks" style="width: 35%;">Book Details</td>
+        <td class="probooks" style="width: 5%;">Code</td>
+        <td class="probooks" style="width: 7%;">Image</td>
+    
+        <td class="probooks" style="width: 3%;">Sr No.</td>
+        <td class="probooks" style="width: 35%;">Book Details</td>
+        <td class="probooks" style="width: 5%;">Code</td>
+        <td class="probooks" style="width: 7%;">Image</td>
+       
+    </tr>
+    <tr style="border: solid rgb(252, 251, 251) 1px;
+    border-collapse: collapse;">
+        <td class="probooks">1.</td>
+        <td class="probooks"><b>NAME: Let Us C<br>AUTHOR: Yashvant Kanetkar</b><br><p style="font-size: 15px;">Let Us C by Yashavant Kanetkar addresses several topics that deal with C programming language. The book combines theory with many exercises and worked examples to help beginners.</p></td>
+        <td class="probooks">#3243</td>
+        <td class="probooks"><img src="c.jpg" height="120px" width="95px"></td>
+        <td class="probooks">5.</td>
+        <td class="probooks"><b>NAME: The Complete Refference C++<br>AUTHOR: Herbert Schildt</b><br><p style="font-size: 15px;">Genius Herbert Schildt covers everything from keywords, syntax, and libraries, to advanced features such as overloading, inheritance, virtual functions, namespaces, templates, and RTTI, plus, a complete description of the Standard Template Library (STL).</p></td>
+        <td class="probooks">#0980</td>
+        <td class="probooks"><img src="main-qimg-b09cf168733292af9ad1da644ea8dbec.webp" height="120px" width="95px"></td>
+    </tr>
+    <tr style="border: solid rgb(252, 251, 251) 1px;
+    border-collapse: collapse;">
+        <td class="probooks">2.</td>
+        <td class="probooks"><b>NAME: DS With Python <br>AUTHOR: Dr. Harsh Bhasin</b><br><p style="font-size: 15px;">The book starts by introducing you to the fascinating world of data structures and algorithms. The book will then teach you how to analyze the complexity of Recursive algorithms.</p></td>
+        <td class="probooks">#0301</td>
+        <td class="probooks"><img src="p.webp" height="120px" width="95px"></td>
+        <td class="probooks">6.</td>
+        <td class="probooks"><b>NAME: Pro Java Programming <br>AUTHOR: Brett Spell </b><br><p style="font-size: 15px;">Pro Java Programming, Second Edition covers the J2SE 5.0 platform and the core Java development kit.You'll discover the particulars of working with the Java language and APIs to develop applications in many different contexts.</p></td>
+        <td class="probooks">#7878</td>
+        <td class="probooks"><img src="978-1-4302-0032-1.jpeg" height="120px"  width="95px"></td>
+    </tr>
+    <tr style="border: solid rgb(252, 251, 251) 1px;
+    border-collapse: collapse;">
+        <td class="probooks">3.</td>
+        <td class="probooks"><b>NAME: SQL For Beginners<br>AUTHOR: Craig Berg</b><br><p style="font-size: 15px;">You Are About To Learn How To Use SQL Programming Language Like A Pro Even If You've Never Used It Before!With so many programming languages out there, it is easy to feel overwhelmed on which programming language to learn next.</p></td>
+        <td class="probooks">#5665</td>
+        <td class="probooks"><img src="sql.jpeg" height="120px"  width="95px"></td>
+        <td class="probooks">7.</td>
+        <td class="probooks"><b>NAME: The Road To React<br>AUTHOR: Robin Wieruch</b><br><p style="font-size: 15px;">This book teaches the core principles of React, guiding you through building a practical application in pure React without complex tooling. The book covers everything from setting up the project to deploying it on a server.</p></td>
+        <td class="probooks">#4554</td>
+        <td class="probooks"><img src="react.jpg" height="120px"  width="95px"></td>
+    </tr>
+   
+    <tr style="solid rgb(252, 251, 251) 1px;
+    border-collapse: collapse;">
+        <td class="probooks">4.</td>
+        <td class="probooks"><b>NAME: Learning Node.js Development<br>AUTHOR: Andrew Mead</b><br><p style="font-size: 15px;">Learning Node. js Development is a practical, project-based book that provides you with all you need to get started as a Node. js developer. Node is a ubiquitous technology on the modern web, and an essential part of any web developers' toolkit.</p></td>
+        <td class="probooks">#3443</td>
+        <td class="probooks"><img src="node.jpg" height="120px"  width="95px"></td>
+        <td class="probooks">8.</td>
+        <td class="probooks"><b>NAME: The Full Stack Developer<br>AUTHOR: Chris Northwood</b><br><p style="font-size: 15px;">Understand the technical foundations, as well as the non-programming skills needed to be a successful full stack web developer. This book reveals the reasons why a truly successful full stack developer does more than write code.</p></td>
+        <td class="probooks">#2332</td>
+        <td class="probooks"><img src="stack.jpg" height="120px"  width="95px"></td>
+    </tr>
+</table>
