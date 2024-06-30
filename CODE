@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DHRUV,ANUJ,AASHU</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .narrival:hover{
+                 opacity: 0.8;
+                 }
+  
+fa {
+        padding: 20px;
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+      }
+.proimgs{
+          width: 195px;
+          padding-bottom:40px;
+          }
+.probooks{
+          background-color:#ffffff;
+          color: #000000;
+          padding:0px;
+          vertical-align: top;
+          border: solid rgb(0, 0, 0) 1px;
+          border-collapse: collapse;
+          }
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  }
+#libimg{
+       position: absolute;
+       right: 0px;
+       }
+.button{
+        color: #fcfcfc;
+        border-bottom: #000 1px;
+        background-color: #005b9a;
+        width: 100%;
+        height: 50px;
+        border-right: 0px;
+       }
+.top{
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    z-index: 1;
+    height: 130px     
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    width: 100%;
+    border: solid black 1px;
+}
+.img{
+      position: absolute;
+      top:0px;
+    }
+.sidebar{
+        position: fixed;
+        height: 100%;
+        width: 9.65%;
+        background-color:#005b9a;
+        top: 121px;
+        left: 0px; 
+        border: solid black 1px;
+        }
+ .heading{
+        position: fixed;
+        top: 20px;
+        right: 100px;
+       }
+.narrival{
+        height: 260px;
+        width:100%;
+        border: solid black 1px;
+       }
+        </style>
+</head>
+<body style="background-color:#0191c8">
+    <div class="top">
+        <img class="img" src="CGC_Jhanjeri-logo-removebg-preview.png" height="130px">
+      <div class="heading">
+          <h1>LIBRARY</h1>
+      </div>
+        <img src="logo.png" height="130px;" id="libimg">
+    </div>
+ <div class="sidebar">
+        <button class="button"><a href="pro.html"><B>HOME</B></a></button>
+<br>
+        <button class="button"><a href=""><B>E-BOOKS<B></B></a></button>
+<br>
+        <button class="button"><a href="tel: +917988761008"><B>CONTACT US</B></a></button>
+<br>
+        <button class="button"><a href="tel: +919877502015"><B>ENQUIRY</B></a></button>
+<br>
+        <button class="button"><a href=""><B>ABOUT US</B></a></button>
+</div>
+<h2 style="color: white;position: absolute; left:10%; top: 120px;"><u>AVAILABLE BOOKS:</u></h2>
+<table style="width:90%; height: 260px; position: absolute; left:10%; top: 170px;">
+    <tr>
+        <td><a href="#pbooks"><img  class="narrival" src="prog.jpg" alt="img"></a></td>
+        <td><a href="#Physics"><img  class="narrival" src="phy.jpg" alt="img"></a></td>
+        <td><a href="#chemistry"><img  class="narrival" src="chem.jpg" alt="img"></a></td>
+        <td><a href="#maths"><img  class="narrival" src="maths.jpg" alt="img"></a></td>
+        <td><a href="#communication"><img  class="narrival" src="cs.jpg" alt="img"></a></td>
+        <td><a href="#gkbooks"><img  class="narrival" src="gk.jpg" alt="img"></a></td>
+  </tr>
+</table>
+
+<h2 style="position: absolute; top:420px; left: 10%; color: #fdfdfd;"><u>NEW ARRIVALS:</u></h2>
+<table style="position: absolute; top:480px; left: 10%; width: 90%; height:260px;">
+    <tr>
+        <td><a href="#crc++"><img  class="narrival" src="main-qimg-b09cf168733292af9ad1da644ea8dbec.jpeg" alt="img"></td>
+        <td><a href="#letusc"><img  class="narrival" src="c.jpg" alt="img"></a></td>
+        <td><a href="#projava"><img  class="narrival" src="978-1-4302-0032-1.jpeg" alt="img"></a></td>
+        <td><a href="#"><img  class="narrival" src="8.jpg" alt="img"></a></td>
+        <td><a href="#"><img  class="narrival" src="m.jpeg" alt="img"></a></td>
+        <td><a href="#dspython"><img  class="narrival" src="p.jpeg" alt="img"></a></td>
+    </tr>
+</table>
+
+<h2 style="color: white;position: absolute; left:10%; top: 740px;"><u>CGC LIBRARY:</u></h2>
+<table style="position: absolute; top:800px; left: 10%; width: 90%;">
+    <tr>
+          <td style="width: 50%;"><p style="color: white; font-size: 14px;">The library at CGC Jhanjeri is a hub of intellectual activity, providing students with access to a wealth of academic resources and information. Its modern facilities and extensive collection of books, journals, and online databases cater to the diverse needs of students across various disciplines. With comfortable study spaces, state-of-the-art technology, and knowledgeable librarians ready to assist, the library serves as a vibrant center for research, study, and collaborative learning.
+                Chandigarh college of engineering, Jhanjeri has state-of-the-art academic library that provides a congenial atmosphere for reading and research purposes. The library is fully automated with integrated Library Management Software KOHA.
+                All the books in the library are barcode based and easily scan barcode readers. Books can be searched in "KOHA" Web OPAC(Online Public Access Catalogue).</p></td>
+          <td><img src="LIB.jpg" width="100%" height="250px"></td>
+    </tr>
+    <tr>
+         <td><img src="LIB1.jpg" width="100%" height="250px"></td>
+         <td id="pbooks" style="width: 50%;"><p style="color: white; font-size: 14px;">The library at CGC Jhanjeri is a hub of intellectual activity, providing students with access to a wealth of academic resources and information. Its modern facilities and extensive collection of books, journals, and online databases cater to the diverse needs of students across various disciplines. With comfortable study spaces, state-of-the-art technology, and knowledgeable librarians ready to assist, the library serves as a vibrant center for research, study, and collaborative learning.
+                Chandigarh college of engineering, Jhanjeri has state-of-the-art academic library that provides a congenial atmosphere for reading and research purposes. The library is fully automated with integrated Library Management Software KOHA.
+                All the books in the library are barcode based and easily scan barcode readers. Books can be searched in "KOHA" Web OPAC(Online Public Access Catalogue).</p></td>
+    </tr>
+</table >
+
+<h2  style="color: white;position: absolute; left:10%; top: 1380px; "><u>PROGRAMMING BOOKS:</u></h2>
+<table style="position: absolute;color:white; top:1440px; left: 10%; width: 90%;">
+    <tr>
+            <td><a href="#letusc"><img  class="narrival" src="c.jpg" alt="img"></a></td>
+            <td><a href="#crc++"><img  class="narrival" src="main-qimg-b09cf168733292af9ad1da644ea8dbec.jpeg" alt="img"></a></td>
+            <td><a href="#dspython"><img  class="narrival" src="p.jpeg" alt="img"></a></td>
+            <td><a href="#react"><img  class="narrival" src="react.jpg" alt="img"></a></td>
+            <td><a href="#node"><img  class="narrival" src="node.jpg" alt="img"></a></td>
+            <td><a href="#sql"><img  class="narrival" src="sql.jpeg" alt="img"></a></td>
+    </tr>
+    <tr>
+            <td  class="proimgs"><b>NAME: Let Us C<br>AUTHOR: Yashvant Kanetkar</b></td>
+            <td  class="proimgs"><b>NAME: The Complete Refference C++<br>AUTHOR: Herbert Schildt</b></td>
+            <td  class="proimgs"><b>NAME: DS With Python <br>AUTHOR: Dr. Harsh Bhasin</b></td>
+            <td  class="proimgs"><b>NAME: Learning Node.js Development<br>AUTHOR: Andrew Mead</b></td>
+            <td class="proimgs"><b>NAME: The Road To React<br>AUTHOR: Robin Wieruch</b></td>
+            <td class="proimgs"><b>NAME: SQL For Beginners<br>AUTHOR: Craig Berg</b></td>
+          </tr>
+    <tr>
+            <td><a href="#projava"><img  class="narrival" src="978-1-4302-0032-1.jpeg" alt="img"></a></td>
+            <td><a href="#cpcc"><img  class="narrival" src="cc.jpg" alt="img"></a></td>
+            <td><a href="#php"><img  class="narrival" src="php.jpg" alt="img"></a></td>
+            <td><a href="#fullstack"><img  class="narrival" src="stack.jpg" alt="img"></a></td>
+            <td><a href="#rust"><img  class="narrival" src="rust.jpg" alt="img"></a></td>
+            <td><a href="#js"><div id="Physics"><img  class="narrival" src="js.jpeg" alt="img"></div></a></td>
+    </tr>
+    <tr>
+            <td class="proimgs"><b>NAME: Pro Java Programming <br>AUTHOR: Brett Spell </b></td>
+            <td class="proimgs"><b>NAME: Computer Programming<br>AUTHOR: Julian James Mckinnon</b></td>
+            <td class="proimgs"><b>NAME: Programming PHP<br>AUTHOR: Kevin Tatroe</b></td>
+            <td class="proimgs"><b>NAME: The Full Stack Developer<br>AUTHOR: Chris Northwood</b></td>
+            <td class="proimgs"><b>NAME: Programming Rust<br>AUTHOR: Jim Blandy</b></td>
+            <td class="proimgs"><b>NAME: Eloqoent JS<br>AUTHOR: Marijn Haverbeke</b></td>
+     </tr>
+</table>
+
+<h2  style="color: white;position: absolute; left:10%; top: 2150px; "><u>PHYSICS BOOKS:</u></h2>
+<table style="position: absolute;color:white; top:2200px; left: 10%; width: 90%;">
+    <tr>
+         <td><a href="#ep1"><img  class="narrival" src="MNSCHAND.jpg" alt="img"></a></td>
+         <td><a href="#ep2"><img  class="narrival" src="UMA.jpg" alt="img"></a></td>
+         <td><a href="#ep3"><img  class="narrival" src="physchand.jpg" alt="img"></a></td>
+         <td><a href="#ep4"><img  class="narrival" src="physgk.jpg" alt="img"></a></td>
+         <td><a href="#ep5"><img  class="narrival" src="ep1.jpg" alt="img"></a></td>
+         <td><a href="#ep6"><div id="chemistry"><img  class="narrival" src="physanjali.jpg" alt="img"></div></a></td>
+    </tr>
+    <tr>
+        <td  class="proimgs"><b>NAME: Engineering Physics <br>AUTHOR: M N Avadhanulu</b></td>
+        <td  class="proimgs"><b>NAME: Engineering Physics <br> AUTHOR: Uma Mukherji</b></td>
+        <td  class="proimgs"><b>NAME: Engineering Physics <br> AUTHOR: M N Avadhanulu</b></td>
+        <td  class="proimgs"><b>NAME: Engineering Physics <br> AUTHOR: G.K. Shivakumar</b></td>
+        <td class="proimgs"><b>NAME: Engineering Physics-1 <br> AUTHOR: Dr. M S Pawar</b></td>
+        <td class="proimgs"><b>NAME: Engineering Physics <br> AUTHOR: Anjali A. sakurkar</b></td>
+    </tr>
+</table>
+
+<h2  style="color: white;position: absolute; left:10%; top: 2520px; "><u>CHEMISTRY BOOKS:</u></h2>
+<table style="position: absolute;color:white; top: 2570px; left: 10%; width: 90%;">
+    <tr>
+         <td><a href="#ec1"><img  class="narrival" src="sschem.jpg" alt="img"></a></td>
+          <td><a href="#ec2"><img  class="narrival" src="ppchem.jpg" alt="img"></a></td>
+          <td><a href="#ec3"><img  class="narrival" src="rchem.jpg" alt="img"></a></td>
+          <td><a href="#ec4"><img  class="narrival" src="cvchem.jpg" alt="img"></a></td>
+          <td><a href="#ec5"><img  class="narrival" src="ranjanchem.jpg" alt="img"></a></td>
+          <td><a href="#ec6"><div id="maths" ><img  class="narrival" src="jaychem.jpg" alt="img"></div></a></td>
+    </tr>
+    <tr>
+          <td  class="proimgs"><b>NAME: Engineering Chemistry <br>AUTHOR: </b></td>
+          <td  class="proimgs"><b>NAME: Engineering Chemistry <br> AUTHOR: Dr P.P. Singh</b></td>
+          <td  class="proimgs"><b>NAME: Engineering Chemistry <br> AUTHOR: R. Gopalan</b></td>
+          <td  class="proimgs"><b>NAME: Engineering Chemistry <br> AUTHOR: C.V. Aggarwal</b></td>
+          <td class="proimgs"><b>NAME: Engineering Chemistry <br> AUTHOR: Ranjan Kumar</b></td>
+          <td class="proimgs"><b>NAME: Engineering Chemistry-1 <br> AUTHOR: Dr. Jayshree</b></td>
+   </tr>
+</table>
+
+<h2  style="color: white;position: absolute; left:10%; top: 2900px; "><u>MATHEMATICS BOOKS:</u></h2>
+<table style="position: absolute;color:white; top: 2950px; left: 10%; width: 90%;">
+        <tr>
+              <td><a href="#em1"><img  class="narrival" src="m.jpeg" alt="img"></a></td>
+              <td><a href="#em2"><img  class="narrival" src="TAPANEM.jpg" alt="img"></a></td>
+              <td><a href="#em3"><img  class="narrival" src="ANTHONYEM.jpg" alt="img"></a></td>
+              <td><a href="#em4"><img  class="narrival" src="MUNISHEM.jpg" alt="img"></a></td>
+              <td><a href="#em5"><img  class="narrival" src="MAMPIEM.jpg" alt="img"></a></td>
+              <td><a href="#em6"><div id="communication"><img  class="narrival" src="BV EM.jpg" alt="img"></div></a></td>
+        </tr>
+        <tr>
+              <td class="proimgs"><b>NAME: Engineering Mathematics<br> AUTHOR: Dr.Tapan Kr.Kar</b></td>
+              <td  class="proimgs"><b>NAME: Engineering Mathematics <br>AUTHOR: Dr.Tapan Kr.Kar </b></td>
+              <td  class="proimgs"><b>NAME: Engineering Mathematics <br> AUTHOR: Anthony Croft</b></td>
+              <td  class="proimgs"><b>NAME: Engineering Mathematics-1 <br> AUTHOR: Munish Sethi</b></td>
+              <td  class="proimgs"><b>NAME: Engineering Mathematics VOL-2 <br> AUTHOR: Dr.Mampi Saha</b></td>
+              <td class="proimgs"><b>NAME: Higher Engineering Mathematics <br> AUTHOR: B V Ramana</b></td>
+        </tr>
+</table>
+
+<h2  style="color: white;position: absolute; left:10%; top: 3280px; "><u>COMMUNICATION SKILLS BOOKS:</u></h2>
+<table style="position: absolute;color:white; top: 3330px; left: 10%; width: 90%;">
+    <tr>
+          <td><a href="#cs1"><img  class="narrival" src="IAN CS.jpg" alt="img"></a></td>
+          <td><a href="#cs2"><img  class="narrival" src="SANJAY CS.jpg" alt="img"></a></td>
+          <td><a href="#cs3"><img  class="narrival" src="JUSTIN CS.jpg" alt="img"></a></td>
+          <td><a href="#cs4"><img  class="narrival" src="ALAN CS.jpg" alt="img"></a></td>
+          <td><a href="#cs5"><img  class="narrival" src="EXE CS.jpg" alt="img"></a></td>
+          <td><a href="#cs6"><div id="gkbooks" ><img  class="narrival" src="MARVIN CS.jpg" alt="img"></div></a></td> 
+    </tr>
+    <tr>
+          <td class="proimgs"><b>NAME: Communication Skills Traning<br> AUTHOR: Ian Tuhovsky</b></td>
+          <td  class="proimgs"><b>NAME: Communication Skills <br>AUTHOR: Sanjay Kumar</b></td>
+          <td  class="proimgs"><b>NAME: Communication Skills <br> AUTHOR: Justin Mars</b></td>
+          <td  class="proimgs"><b>NAME: Improve your Communication Skills<br> AUTHOR: Alan Barker</b></td>
+          <td  class="proimgs"><b>NAME: Spoken English<br> AUTHOR: Dhruv Ahuja</b></td>
+          <td class="proimgs"><b>NAME: English Speaking<br> AUTHOR: Marvin L Wiese</b></td>
+    </tr>
+</table>
+
+<h2  style="color: white;position: absolute; left:10%; top: 3660px; "><u>GENERAL KNOWLEDGE BOOKS:</u></h2>
+<table style="position: absolute;color:white; top: 3710px; left: 10%; width: 90%;">
+        <tr>
+              <td><a href="#gk1"><img  class="narrival" src="gk1.jpg" alt="img"></a></td>
+              <td><a href="#gk2"><img class="narrival" src="gk2.jpg" alt="img"></a></td>
+              <td><a href="#gk3"><img class="narrival" src="gk3.jpg" alt="img"></a></td>
+              <td><a href="#gk4"><img class="narrival" src="gk4.jpg" alt="img"></a></td>
+              <td><a href="#gk5"><img class="narrival" src="gk5.jpg" alt="img"></a></td>
+              <td><a href="#gk6"><img class="narrival" src="gk6.jpg" alt="img"></a></td>
+       </tr>
+       <tr>
+              <td class="proimgs"><b>NAME: GENERAL KNOWLEDGE<br> Disha Publications</b></td>
+              <td  class="proimgs"><b>NAME: GENERAL KNOWLEDGE<br>Lucent</b></td>
+              <td  class="proimgs"><b>NAME: NCERT Static GK<br> AUTHOR: Pandey Sir</b></td>
+              <td  class="proimgs"><b>NAME: GENERAL KNOWLEDGE<br> Youth Competion Times</b></td>
+              <td  class="proimgs"><b>NAME: General Studies<br> AUTHOR: Kriti Rastogi</b></td>
+              <td class="proimgs"><b>NAME: Solved Papers Gen. Std.<br>Chronicle</b></td>
+        </tr>
+</table>
+
+<div style="width: 90%; height:160px ;background-color: rgb(32, 32, 32); position: absolute; left: 9.70%; top: 4100px;">
+        <h1 id="letusc" style="text-align: center; color: #ffffff;">LIBRARY TIMMINGS:</h1>
+        <h2 style="text-align: center; color: #ffffff;">ON REGULAR DAYS: 8:00AM TO 6:00PM</h2>
+        <h2 style="text-align: center; color: #ffffff;">ON HOLIDAYS: 10:00AM TO 4:00PM</h2>
+</div>
+<div style="width: 90%;position: absolute; left: 9.70%; top: 4270px;">
+   <h1 style="color: #fcfcfc ; text-align: center;">DESCRIPTION OF BOOKS:</h1>
+   <table style="color: #fcfcfc;">
+       <tr>
+            <td>For C language programmers, it is must to master the complexity of the language to deal with programming software in engineering, gaming and other fields. In order to understand each concept of the C language, it is necessary to follow a good reference book in easy-to-understand text.<br>
+<pre>What you will learn
+● C Instructions
+● Decision Control / Loop Control / Case-Control / Repetitions Instruction
+● Functions, Pointers, Recursion, Translation unit, Scope, Linkage
+● Arrays, Strings, Operations on Bits, Wide Character, Storage classes
+Who this book is for
+Students, Programmers, researchers, and software developers who wish to learn the basics of the C programming language.
+Table of Contents
+  1. Getting Started                9. Pointers                   17. Structures
+  2. C Instructions                 10. Recursion                 18. Console Input/Output
+  3. Decision Control Instruction   11. Data Types Revisited      19. File Input/Output
+  4. More Complex Decision Making   12. The C Preprocessor        20. More Issues In Input/Output
+  5. Loop Control Instruction       13. Arrays                    21. Operations On Bits
+  6. More Complex Repetitions       14. Multidimensional Arrays   22. Miscellaneous Features
+  7. Case Control Instruction       15. Strings                   23. Interview FAQs
+  8. Functions                      16. Handling Multiple Strings 24. The Next Level
+ 
+      Appendix A – Compilation And Execution
+      Appendix B – Precedence Table
+      Appendix C – Chasing The Bugs
+      Appendix D – ASCII Chart</pre></td>
+     <td style="vertical-align: top;"><img src="c.jpg" id = "crc++" style="float: right; width: 200px;"></td>
+   </tr>
+    
+    <tr>
+          <td>The Definitive Guide to C++<br>
+           Master programmer and best-selling author Herb Schildt has updated and expanded his classic reference to C++. Using expertly crafted explanations, insider tips, and hundreds of examples, Schildt explains and demonstrates every aspect of C++. Inside you'll find details on the entire C++ language, including its keywords, operators, preprocessor directives, and libraries. There is even a synopsis of the extended keywords used for .NET programming. Of course, everything is presented in the clear, crisp, uncompromising style that has made Herb Schildt the choice of millions. Whether you're a beginning programmer or a seasoned pro, the answers to all your C++ questions can be found in this lasting resource.<br>
+ <pre>Detailed coverage includes:
+Data types and operators 
+Control statements
+Functions
+Classes and objects
+Constructors and destructors
+Function and operator overloading
+Inheritance
+Virtual functions
+Namespaces
+Templates
+Exception handling
+The I/O library
+The Standard Template Library (STL)
+Containers, algorithms, and iterators
+Principles of object-oriented programming (OOP)
+Runtime type ID (RTTI)
+The preprocessor
+Much, much more</pre></td>
+    <td style="vertical-align: top;"><img src="main-qimg-b09cf168733292af9ad1da644ea8dbec.jpeg" id="dspython" style="float: right; width: 200px;"></td>
+ </tr>
+<tr>
+    <td>Data structures are a way of organizing and storing data in a computer so that it can be accessed and manipulated efficiently. If you want to become an accomplished programmer and master this subject, then this book is for you.<br>
+        <br>The book starts by introducing you to the fascinating world of data structures and algorithms. This book will help you learn about different algorithmic techniques such as Dynamic programming, Greedy algorithms, and Backtracking, and their applications in solving various computational problems. The book will then teach you how to analyze the complexity of Recursive algorithms. Moving on, the book will help you get familiar with the concept of Linked lists, which is an important foundation for understanding other data structures, such as Stacks and Queues, which are covered in detail later in this book. The book will also teach you about advanced data structures such as Trees and Graphs, their different types, and their applications. Towards the end, the book will teach you how to use various Sorting, Searching Selection and String algorithms.
+<pre>
+  What you will learn
+● Get familiar with the fundamentals of data structures such as arrays, linked lists, stacks, and queues.
+● Understand the basics of algorithm analysis and complexity theory.
+● Explore different approaches to the algorithm design, such as divide-and-conquer, dynamic programming, and greedy algorithms.
+Who this book is for
+The book is aimed at Computer Science students, Software Engineers, and anyone interested in learning about data structures and algorithms
+</pre>
+   </td>
+   <td style="vertical-align: top;"><img src="p.jpeg" id="react" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+    <td>"The Road to React" made its debut in 2016, and since then, I've almost rewritten it annually. This book teaches the core principles of React, guiding you through building a practical application in pure React without complex tooling. The book covers everything from setting up the project to deploying it on a server. Each chapter includes additional recommended reading and exercises. By the end, you'll have the skills to develop your own React applications.<br>
+        In "The Road to React," I establish a solid foundation before delving into the broader React ecosystem. The book clarifies general concepts, patterns, and best practices for real-world React applications. Ultimately, you'll learn to construct a React application from scratch, incorporating features such as pagination, client-side and server-side searching, and advanced UI interactions like sorting.
+    <br>
+<pre>
+Pragmatic: Master React while building a complete application step by step.
+Problems Solving: You need to experience a problem first before solving it.
+The Why: Readers like how the book answers the Why, not only the How.
+</pre>
+  </td>
+  <td style="vertical-align: top;"><img src="react.jpg" id="node" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+     <td>Learning Node.js Development is a practical, project-based book that provides you with all you need to get started as a Node.js developer. Node is a ubiquitous technology on the modern web, and an essential part of any web developers' toolkit. If you are looking to create real-world Node applications, or you want to switch careers or launch a side project to generate some extra income, then you're in the right place. This book has been written around a single goal-turning you into a professional Node developer capable of developing, testing, and deploying real-world production applications.<br>
+    Learning Node.js Development is built from the ground up around the latest version of Node.js (version 9.x.x). You'll be learning all the cutting-edge features available only in the latest software versions.
+    <br>This book cuts through the mass of information available around Node and delivers the essential skills that you need to become a Node developer. It takes you through creating complete apps and understanding how to build, deploy, and test your own Node apps. It maps out everything in a comprehensive, easy-to-follow package designed to get you up and running quickly.
+     <br>
+<pre>
+  What You Will Learn:
+
+Learn the fundamentals of Node
+Build apps that respond to user input
+Master working with servers
+Learn how to test and debug applications
+Deploy and update your apps in the real world
+Create responsive asynchronous web applications
+</pre>
+     </td>
+      <td style="vertical-align: top;"><img src="node.jpg" id="sql" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+  <td>Quickly master the fundamentals of SQL right in your own home, without having to use a database server environment. Ideal for business professionals as well as absolute beginners who want to acquire data proficiency, this practical guide teaches you how to pull and transform data in meaningful ways. You’ll also learn how to design your own databases, using best practices in table design.
+  <br>
+<pre>
+  Practice at home with hands-on exercises to learn SQL
+  Leverage SQLite and SQLiteStudio to create databases within minutes
+  Query, transform, and aggregate data to make it meaningful
+  Join tables to get a more complete view of your business data
+  Create resilient databases with normalized design principles
+</pre>
+      </td>
+      <td style="vertical-align: top;"><img src="sql.jpeg" id="projava"style="float: right; width: 200px;"></td>
+</tr>
+  <tr>
+       <td>Pro Java Programming, Second Edition covers the J2SE 5.0 platform and the core Java development kit. It takes advantage of the finer points of the core and standard edition of Java 2. You'll discover the particulars of working with the Java language and APIs to develop applications in many different contexts.
+    <br>
+    You will also delve into more advanced topics like enums, generics, XML, metadata or the Swing APIs for graphical user interface design and development. By the end of the book, you'll be fully prepared to take advantage of Java's ease of development, and able to create powerful, sophisticated Java applications.
+  <pre>
+    
+  </pre>
+   </td>
+   <td style="vertical-align: top;"><img src="978-1-4302-0032-1.jpeg" id="cpcc" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>Written with the beginner in mind, this incredible 7-in-1 book bundle brings you everything you need to know about programming. Packed with a ton of advice and step-by-step instructions on all the most popular and useful languages, you’ll explore how even a complete beginner can get started with ease!
+      <br>
+      Covering data science, Arduino, and even Raspberry pi, you’ll learn the fundamentals of object-oriented programming, operators, variables, loops, classes, arrays, strings and so much more!
+      <br>
+<pre>
+Here’s just a little of what you’ll discover inside:
+
+Uncovering The Secrets of C++, C#, Python, SQL and More
+Breaking Down The Fundamentals of Data Science
+Understanding The Different Classes, Operations, and Data Types
+Fundamental Programming Skills That YOU Need To Know
+Tips and Tricks For Getting The Most out of Each Language
+The Best Strategies For Using Arduino and Raspberry Pi
+Common Errors and How To Troubleshoot Them
+And Much More!
+</pre>
+    </td>
+    <td style="vertical-align: top;"><img src="cc.jpg" id="php" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>This is a comprehensive guide to PHP, a simple yet powerful language for creating dynamic Web content. It is a detailed reference to the language and its applications, including such topics as form processing, sessions, databases, XML, and graphics and covers PHP 4, the latest version of the language. This book explains PHP language syntax and programming techniques in a clear and concise manner, with numerous examples that illustrate both correct usage and common idioms. The book also includes style tips and practical programming advice that should help you become not just a PHP programmer, but a good PHP programmer. 
+      <br>
+      Contents of the book include: information on the basics of the PHP language, including data types, variables, operators, and flow control statements; separate chapters on the fundamental topics of functions, strings, arrays, and objects; coverage of common PHP Web application techniques, such as form processing and validation, session tracking, and cookies; material on interacting with relational databases, such as MySQL and Oracle, using the database-independent PEAR DB library; chapters on generating dynamic images, creating PDF files, and parsing XML files with PHP; and advanced topics, like creating secure script, error handling, performance tuning, and writing your own C language extensions to PHP.
+      </td>
+      <td style="vertical-align: top;"><img src="php.jpg" id="fullstack" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>Understand the technical foundations, as well as the non-programming skills needed to be a successful full stack web developer. This book reveals the reasons why a truly successful full stack developer does more than write code. 
+      <br>You will learn the principles of the topics needed to help a developer new to agile or full stack working―UX, project management, QA, product management, and more― all from the point of view of a developer. Covering these skills alongside the fundamentals and foundations of modern web development, rather than specifics of current technologies and frameworks (which can age quickly), all programming examples are given in the context of the web as it is in 2018.
+      Although you need to feel comfortable working on code at the system, database, API, middleware or user interface level, depending on the task in hand, you also need to be able to deal with the big picture and the little details. The Full Stack Developer recognizes skills beyond the technical, and gives foundational knowledge of the wide set of skills needed in a modern software development team.        
+    <br>
+<pre>
+  What You'll Learn
+  Plan your work including Agile vs Waterfall, tools, scrum, kanban and continuous delivery
+  Translate UX into code: grids, component libraries and style guides
+  Design systems and system architectures (microservices to monoliths)
+  Review patterns for APIs (SOAP, AJAX, REST), defining API domains, patterns for REST APIs and more API goodness
+  Study the various front-end design patterns you need to know
+  Store data, what to consider for security, deployment, in production and more
+</pre>
+  </td>
+  <td style="vertical-align: top;"><img src="stack.jpg" id="rust" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>Systems programming provides the foundation for the world's computation. Writing performance-sensitive code requires a programming language that puts programmers in control of how memory, processor time, and other system resources are used. The Rust systems programming language combines that control with a modern type system that catches broad classes of common mistakes, from memory management errors to data races between threads.
+        <br>With this practical guide, experienced systems programmers will learn how to successfully bridge the gap between performance and safety using Rust. Jim Blandy, Jason Orendorff, and Leonora Tindall demonstrate how Rust's features put programmers in control over memory consumption and processor use by combining predictable performance with memory safety and trustworthy concurrency.
+        <br>
+<pre>
+You'll learn:
+
+Rust's fundamental data types and the core concepts of ownership and borrowing
+How to write flexible, efficient code with traits and generics
+How to write fast, multithreaded code without data races
+Rust's key power tools: closures, iterators, and asynchronous programming
+Collections, strings and text, input and output, macros, unsafe code, and foreign function interfaces
+</pre>
+  </td>
+  <td style="vertical-align: top;"><img src="rust.jpg" id="js" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
+        <br>This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of Java¬Script and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track.
+        <br>As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs. You start by learning the basic structure of the JavaScript language as well as control structures, functions, and data structures to help you write basic programs. Then you'll learn about error handling and bug fixing, modularity, and asynchronous programming before moving on to web browsers and how JavaScript is used to program them. As you build projects such as an artificial life simulation, a simple programming language, and a paint program, you'll learn how to:
+    <br>
+        <pre>
+- Understand the essential elements of programming, including syntax, control, and data
+- Organize and clarify your code with object-oriented and functional programming techniques
+- Script the browser and make basic web applications
+- Use the DOM effectively to interact with browsers
+- Harness Node.js to build servers and utilities
+  </pre>
+  </td>
+    <td style="vertical-align: top;"><img src="js.jpeg" id="ep1" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>A Textbook of Engineering Physics is a comprehensive book that covers all the relevant and important topics in engineering physics. Some key points about the book:
+        The book is written by Dr. M.N. Avadhanulu, Dr. P.G. Kshirsagar, and Dr. TVS Arun Murthy, who are experts in the field of engineering physics.        
+        <br>It is suitable for students pursuing B.E., B.Tech., B.Arch., and B.Sc. (Engineering) programs.
+        The book explains all the engineering physics concepts in an easy-to-understand manner, with 40 chapters covering topics like oscillation, waves, optics, modern physics, and more.
+        It is available in both print and Kindle editions, with the Kindle version costing ₹354 on Amazon
+        <br>
+        The book has received positive reviews, with customers praising its comprehensive coverage of the subject matter and suitability for various engineering exams.
+Overall, A Textbook of Engineering Physics is considered a reliable and valuable resource for engineering students to gain a strong foundation in the principles of engineering physics
+        <br>
+  </td>
+  <td style="vertical-align: top;"><img src="MNSCHAND.jpg" id="ep2" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>Engineering Physics by Uma Mukherji is a comprehensive textbook that covers a wide range of topics relevant to engineering students. The book is suitable for students pursuing B.E., B.Tech., B.Arch., and B.Sc. (Engineering) programs.<br>
+        The textbook is divided into 40 chapters that explain engineering physics concepts in an easy-to-understand manner. It covers topics such as oscillation, waves, optics, modern physics, and more.<br>
+        One notable aspect of the book is that it includes topics that are still at the research level, such as holography (production of three-dimensional photographs), fiber optics communications, electron microscope, and superconductivity.<br>
+        The book is available in both print and Kindle editions, with the Kindle version costing ₹354 on Amazon. It has received positive reviews, with customers praising its comprehensive coverage of the subject matter and suitability for various engineering exams.<br>
+        Overall, Engineering Physics by Uma Mukherji is considered a valuable resource for engineering students to gain a strong foundation in the principles of engineering physics.
+  </td>
+   <td style="vertical-align: top;"><img src="UMA.jpg" id="ep3" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+        S. Chand's Engineering Physics is a comprehensive textbook that covers a wide range of topics relevant to engineering students. The book is suitable for students pursuing B.E., B.Tech., B.Arch., and B.Sc. (Engineering) programs.<br>
+        The textbook is divided into multiple chapters that explain engineering physics concepts in an easy-to-understand manner. It covers topics such as oscillation, waves, optics, modern physics, and more.<br>
+        One notable aspect of the book is that it includes topics that are still at the research level, such as holography (production of three-dimensional photographs), fiber optics communications, electron microscope, and superconductivity.<br>
+        The book is available in both print and Kindle editions, with the Kindle version costing ₹354 on Amazon. It has received positive reviews, with customers praising its comprehensive coverage of the subject matter and suitability for various engineering exams.<br>
+        Overall, S. Chand's Engineering Physics is considered a valuable resource for engineering students to gain a strong foundation in the principles of engineering physics.<br>
+      </td>
+      <td style="vertical-align: top;"><img src="physchand.jpg" id="ep4" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+        G.K. Shivakumar's Engineering Physics textbook is a comprehensive and well-regarded resource for engineering students. Some key points about the book:<br>
+        The textbook covers a wide range of topics in engineering physics, including oscillation, waves, optics, modern physics, and more. It is suitable for students pursuing B.E., B.Tech., B.Arch., and B.Sc. (Engineering) programs.<br>
+        The book is praised for its detailed explanations of engineering physics concepts and its inclusion of topics at the research level, such as holography, fiber optics communications, and superconductivity.<br>
+        It is available in both print and digital formats, with the print edition costing around ₹240. The book has received positive reviews from students and educators.<br>
+        Overall, G.K. Shivakumar's Engineering Physics textbook is considered a valuable and comprehensive resource for engineering students to gain a strong foundation in the principles of engineering physics.<br>
+       </td>
+       <td style="vertical-align: top;"><img src="physgk.jpg" id="ep5" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+         Engineering Physics-I (Basic Physics) by Dr. M.S. Pawar is a textbook aimed at providing complete coverage of the revised syllabus for First Year engineering students. Some key points about the book:<br>
+         It covers the entire revised syllabus in detail to meet the needs of First Year engineering students.<br>
+         The book is suitable for students pursuing B.E., B.Tech., B.Arch., and B.Sc. (Engineering) programs.<br>
+         It is available in both print and digital formats, with the print edition costing around ₹240.<br>
+         The textbook has received positive reviews from students and educators for its comprehensive coverage of the subject matter.<br>
+        Overall, Engineering Physics-I (Basic Physics) by Dr. M.S. Pawar is considered a valuable resource for First Year engineering students to gain a strong foundation in the principles of engineering physics as per the revised syllabus.<br>
+      </td>
+      <td style="vertical-align: top;"><img src="ep1.jpg" id="ep6" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+       <td>
+        Anjali A. Sakurkar is the author of the book "Engineering Physics For PCCOE University First Year Engineering Sem 1 & 2". Some key points about this book:<br>
+        It is specifically designed for first-year engineering students at PCCOE University, covering the syllabus for Semesters 1 and 2.<br>
+        The book provides comprehensive coverage of engineering physics topics, including oscillations, waves, optics, modern physics, and more.<br>
+        It is available in both print and digital formats on platforms like Amazon.<br>
+        The book has received positive reviews, with students and educators praising its alignment with the revised syllabus and easy-to-understand explanations of concepts.<br>
+        Anjali A. Sakurkar is the primary author, along with two additional authors - Mr. Dattatraya Ananta Anarse and Dr. Sonali Kiran Kale.<br>
+        Overall, the "Engineering Physics For PCCOE University First Year Engineering Sem 1 & 2" book by Anjali A. Sakurkar is considered a valuable resource for first-year engineering students at PCCOE University to gain a strong foundation in engineering physics.<br>
+       </td>
+      <td style="vertical-align: top;"><img src="physanjali.jpg" id="ec1" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+       <td>
+        S.S. Dara's "A Textbook of Engineering Chemistry" is a comprehensive and widely-used resource for engineering students. Some key points about the book:<br>
+        The textbook covers a broad range of topics relevant to engineering chemistry, including chemical bonding, thermodynamics, electrochemistry, corrosion, polymers, and more. It is suitable for students pursuing B.E., B.Tech., and B.Arch. programs.<br>
+        The book is praised for its detailed explanations and problem-solving approach, helping students develop a strong foundation in engineering chemistry principles. It is available in both print and digital formats.<br>
+        With over 750 pages, the textbook provides in-depth coverage of the subject matter. It has been revised and updated over multiple editions to keep pace with the evolving engineering curriculum.<br>
+        Overall, "A Textbook of Engineering Chemistry" by S.S. Dara is considered an authoritative and valuable resource for engineering students to gain a comprehensive understanding of the core concepts in engineering chemistry.<br>
+       </td>
+        <td style="vertical-align: top;"><img src="sschem.jpg" id="ec2"style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+       <td>
+        Fundamentals of Engineering Chemistry by Dr. P.K. Pathak is a comprehensive textbook that covers the essential concepts of chemistry relevant to engineering students. Some key points about the book:<br>
+        It provides a solid foundation in the fundamentals of chemistry, including topics like chemical bonding, thermodynamics, electrochemistry, and more.<br>
+        The textbook is suitable for students pursuing B.E., B.Tech., and B.Arch. programs.<br>
+        It is available in both print and digital formats, making it accessible to students.<br>
+        Dr. P.K. Pathak is an eminent scholar and author who has extensive experience in the field of chemistry. His expertise is reflected in the detailed explanations and problem-solving approach used in the book.<br>
+        Fundamentals of Engineering Chemistry has received positive reviews from students and educators for its comprehensive coverage of the subject matter and its ability to help students develop a strong foundation in engineering chemistry principles.<br>
+        Overall, Dr. P.K. Pathak's Fundamentals of Engineering Chemistry is considered a valuable resource for engineering students to gain a comprehensive understanding of the core concepts in chemistry relevant to their field of study.<br>
+        </td>
+        <td style="vertical-align: top;"><img src="ppchem.jpg" id="ec3" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+        A Textbook of Engineering Chemistry by R. Gopalan is a comprehensive and widely-used resource for engineering students. Some key points about the book:<br>
+        The textbook covers a broad range of topics relevant to engineering chemistry, including chemical bonding, thermodynamics, electrochemistry, corrosion, polymers, and more. It is suitable for students pursuing B.E., B.Tech., and B.Arch. programs.<br>
+        The book is praised for its detailed explanations and problem-solving approach, helping students develop a strong foundation in engineering chemistry principles. It is available in both print and digital formats.<br>
+        The author, Dr. R. Gopalan, is an experienced professor who taught at Madras Christian College for over 35 years and guided several M.Phil. and Ph.D. students.<br>
+        The textbook has gone through multiple editions, with the latest being the 4th edition, to keep pace with the evolving engineering curriculum.<br>
+        Overall, "A Textbook of Engineering Chemistry" by R. Gopalan is considered an authoritative and valuable resource for engineering students to gain a comprehensive understanding of the core concepts in engineering chemistry.<br>
+       </td>
+      <td style="vertical-align: top;"><img src="rchem.jpg" id="ec4" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+        A Textbook of Engineering Chemistry by C.V. Agarwal is a comprehensive and widely-used resource for engineering students. Some key points about the book:<br>
+        The textbook covers a broad range of topics relevant to engineering chemistry, including chemical bonding, thermodynamics, electrochemistry, corrosion, polymers, and more. It is suitable for students pursuing B.E., B.Tech., and B.Arch. programs.<br>
+        The book is praised for its detailed explanations and problem-solving approach, helping students develop a strong foundation in engineering chemistry principles. It is available in both print and digital formats.<br>
+        C.V. Agarwal is the primary author, along with co-authors Andra Naidu and C. Parameswara Murthy, who are experienced professors in the field of chemistry.<br>
+        The textbook has gone through multiple editions to keep pace with the evolving engineering curriculum and is considered an authoritative resource in the field.<br>
+        Overall, "A Textbook of Engineering Chemistry" by C.V. Agarwal is a comprehensive and valuable resource for engineering students to gain a deep understanding of the core concepts in engineering chemistry.<br>
+       </td>
+       <td style="vertical-align: top;"><img src="cvchem.jpg" id="ec5" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Engineering Chemistry for Diploma by Ranjan Kumar Mohapatra is a textbook specifically written for first and second-semester diploma students in engineering. Some key points about the book:<br>
+        The textbook covers the revised syllabus for engineering chemistry, providing comprehensive coverage of topics such as chemical bonding, thermodynamics, electrochemistry, corrosion, and more.<br>
+        It is praised for its detailed explanations and problem-solving approach, which helps diploma students develop a strong foundation in engineering chemistry principles.<br>
+        The book is available in both print and digital formats, making it accessible to students.<br>
+        Ranjan Kumar Mohapatra, the author, is an experienced professor who has expertise in the field of chemistry.<br>
+        Overall, Engineering Chemistry for Diploma by Ranjan Kumar Mohapatra is considered a valuable and comprehensive resource for diploma students to gain a thorough understanding of the core concepts in engineering chemistry.<br>
+        </td>
+        <td style="vertical-align: top;"><img src="ranjanchem.jpg" id="ec6" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        The Engineering Chemistry-I textbook by Dr. Jayshree A. Parikh is a comprehensive resource for first-year engineering students. Some key points about the book:<br>
+        It covers the revised syllabus for engineering chemistry, providing in-depth coverage of topics such as chemical bonding, thermodynamics, electrochemistry, corrosion, and more.<br>
+        The book is praised for its detailed explanations and problem-solving approach, which helps students develop a strong foundation in engineering chemistry principles.<br>
+        Dr. Jayshree A. Parikh, the author, is an experienced professor with expertise in the field of chemistry. The book has gone through multiple editions to keep pace with the evolving engineering curriculum.<br>
+        The textbook is available in both print and digital formats, making it accessible to students.<br>
+        Overall, the Engineering Chemistry-I book by Dr. Jayshree A. Parikh is considered a valuable and comprehensive resource for first-year engineering students to gain a thorough understanding of the core concepts in engineering chemistry.<br>
+        </td>
+        <td style="vertical-align: top;"><img src="jaychem.jpg" id="em1" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+       <td>
+        Key Features<br>
+        Created for B.Tech / B.E. students following the latest syllabuses of AICTE, MAKAUT and other Indian Technical Universities<br>
+        Authored by Dr. Tapan Kumar Kar and Dr. Soovoojeet Jana<br>
+        Includes worked out illustrations and unsolved exercises at the end of every chapter<br>
+        Provides lists of formulae at the beginning of the books<br>
+        Incorporates examination papers of previous years from various universities<br>
+        Adds MCQs in sufficient quantities<br>
+        Extremely helpful for GATE preparations<br>
+        </td>
+        <td style="vertical-align: top;"><img src="m.jpeg" id="em2" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Covers topics for B.Tech / B.E. Semester III students in Computer Science & IT<br>
+        Follows the latest syllabuses of AICTE, MAKAUT and other Indian Technical Universities<br>
+        Includes a total of 23 chapters spanning Differential Calculus to Integral Calculus and Differential Equations<br>
+        Provides worked out illustrations and unsolved exercises at the end of every chapter<br>
+        Lists of formulae are provided at the beginning of the book<br>
+        Incorporates examination papers of previous years from various universities<br>
+        Adds MCQs in sufficient quantities<br>
+        Extremely helpful for GATE preparations<br>
+        </td>
+        <td style="vertical-align: top;"><img src="TAPANEM.jpg" id="em3" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Comprehensive textbook covering core mathematics topics required for undergraduate engineering students<br>
+        Follows syllabuses of major engineering programs in the UK and internationally<br>
+        Includes a wide range of applications-focused examples and exercises<br>
+        Provides a solid foundation in areas like calculus, linear algebra, differential equations, and statistics<br>
+        Structured to gradually build up students' knowledge and problem-solving skills<br>
+        Interactive examples encourage active engagement in the learning process<br>
+        Suitable for students across electrical, electronic, communications, and systems engineering disciplines<br>
+        </td>
+        <td style="vertical-align: top;"><img src="ANTHONYEM.jpg" id="em4" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Written for mathematics courses offered to graduate and post-graduate engineering students<br>
+        Lays emphasis on fundamental and advanced concepts in engineering mathematics<br>
+        Covers core topics such as calculus, linear algebra, and differential equations<br>
+        Includes a wide range of solved examples and practice problems<br>
+        Follows the syllabi of major Indian technical universities<br>
+        Helpful for students preparing for competitive exams like GATE<br>
+        </td>
+        <td style="vertical-align: top;"><img src="MUNISHEM.jpg" id="em5" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Systematically develops the topics covered in the book<br>
+        Follows the latest syllabus of JUT for B.Tech. students of all branches<br>
+        Provides comprehensive coverage of engineering mathematics topics in Volume II<br>
+        Authored by Dr. Mampi Saha, Assistant Professor at RTC Institute of Technology, and Kaveri Kanchan Kumari<br>
+        Available for purchase on Flipkart and other online platforms<br>
+        </td>
+        <td style="vertical-align: top;"><img src="MAMPIEM.jpg" id="em6" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Comprehensive textbook covering advanced mathematics topics for undergraduate engineering students<br>
+        Follows the syllabi of major Indian universities and technical institutes<br>
+        Includes chapters on algebra, geometry, calculus, differential equations, complex analysis, transforms, and numerical methods<br>
+        Provides a large number of solved examples and practice problems<br>
+        Helpful for students preparing for competitive exams like GATE<br>
+        Available in paperback format<br>
+        </td>
+        <td style="vertical-align: top;"><img src="BV EM.jpg" id="cs1" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Provides practical strategies and techniques to improve communication skills<br>
+        Covers a wide range of communication-related topics including:<br>
+        Social intelligence<br>
+        Presentation skills<br>
+        Persuasion techniques<br>
+        Public speaking<br>
+        Includes numerous examples, exercises, and actionable tips<br>
+        Helps readers develop confidence, empathy, and influence in their interactions<br>
+        Suitable for both personal and professional development<br>
+        Available in print, digital, and audiobook formats<br>
+        </td>
+        <td style="vertical-align: top;"><img src="IAN CS.jpg" id="cs2" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Comprehensive textbook covering all aspects of communication skills<br>
+        Divided into six sections:<br>
+        Basics of communication<br>
+        English language<br>
+        Listening skills<br>
+        Speaking skills<br>
+        Reading skills<br>
+        Writing skills<br>
+        Includes topics like role of creative and critical thinking, intercultural communication, extempore and storytelling skills, and writing instructions<br>
+        Practical approach makes it suitable for both students and professionals<br>
+        Revised second edition builds on the exhaustive coverage of the first edition<br>
+        </td>
+        <td style="vertical-align: top;"><img src="SANJAY CS.jpg" id="cs3" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Provides practical strategies and techniques to improve communication skills<br>
+        Covers a wide range of communication-related topics including:<br>
+        Mastering conversations<br>
+        Improving relationships<br>
+        Developing charisma<br>
+        Includes actionable tips and advice to help readers become better communicators<br>
+        Aims to help readers build confidence, empathy, and influence in their interactions<br>
+        Available in ebook format on platforms like Amazon<br>
+        </td>
+        <td style="vertical-align: top;"><img src="JUSTIN CS.jpg" id="cs4" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Provides practical strategies and techniques to improve communication skills<br>
+        Covers a wide range of communication-related topics including:<br>
+        Mastering conversations<br>
+        Improving relationships<br>
+        Developing persuasion skills<br>
+        Giving effective presentations<br>
+        Writing for results<br>
+        Networking and building connections<br>
+        Includes numerous examples, exercises, and actionable tips<br>
+        Aims to help readers achieve "verbal, vocal and visual success" in their communication<br>
+        Suitable for both personal and professional development<br>
+        </td>
+        <td style="vertical-align: top;"><img src="ALAN CS.jpg" id="cs5" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features<br>
+        Part of the Exc-el series of self-study English language learning books<br>
+        Focuses specifically on improving spoken English skills<br>
+        Covers essential aspects of spoken English such as:<br>
+        Pronunciation and intonation<br>
+        Vocabulary for everyday conversation<br>
+        Useful expressions and idioms<br>
+        Listening comprehension<br>
+        Speaking fluency<br>
+        Includes a variety of practice exercises and activities<br>
+        Suitable for learners at the intermediate to advanced level<br>
+        Provides tips and strategies for effective self-study<br>
+        Designed to help learners communicate more confidently in real-life situations<br>
+        </td>
+        <td style="vertical-align: top;"><img src="EXE CS.jpg" id="cs6" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        Key Features:<br>
+        Understanding grammar and pronunciation to improve your english fluency<br>
+        The influence of the mother tongue on english as a second language<br>
+        How to improve your speaking skills<br>
+        Developing native english pronunciation to improve your english fluency<br>
+        Ways to improve your english fluency<br>
+        Improve your reading; your fluency will follow<br>
+        Secrets of a fluent english speaker<br>
+      </td>
+      <td style="vertical-align: top;"><img src="MARVIN CS.jpg" id="gk1" style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        The thoroughly revised & updated 4th edition of the book The Fundamentals of GENERAL KNOWLEDGE provides a comprehensive updation of all sections - Geography, History, Polity, Economy, Business, General Science, Ecology & Environment, Art & Culture, Sports, Healthcare, Communication, News & Media, Education & Career, IT & Computers and Technology.<br>
+        The USP of the book is the use of Infographics, MindMaps, Tables, Charts etc. to present information so as to make it the Most Student Friendly book for students.<br>
+        The book has been prepared keeping in mind the importance of the questions asked in previous years' competitive exams papers and is useful for aspirants of UPSC, SSC, Banking, Insurance, Railways, Engg Services and AFCAT etc.<br>
+        </td>
+        <td style="vertical-align: top;"><img src="gk1.jpg" id="gk2"  style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+    <td>
+    A comprehensive book that covers an exhaustive range of topics, Lucent’s General Knowledge is a reference book for students, ardent quizzers, and just about anyone with a thirst for knowledge. Some of the most popular competitive exams today feature a paper on general knowledge. Lucent’s General Knowledge is a handy book for students who aspire to enter various courses through such competitive exams. An important feature of the book is the range of subjects that it covers. It combines Social Sciences with Pure Sciences, and the content list includes subjects like Geography, History, Indian Polity, Indian Constitution, General Sciences, and Indian Economy. The final section of the book covers miscellaneous topics that students need to learn about. The book is almost like an encyclopedia, taking into account the number of topics covered. The information is provided in an organised manner. Students are sure to find Lucent’s General Knowledge useful, as it provides a starting point for further detailed study into each topic.
+    </td>
+    <td style="vertical-align: top;"><img src="gk2.jpg" id="gk3"  style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+       <td>
+        static GK TOPIC WISE 1400+ MCQ TCS very important questions based on including compilation of History Geography | Indian Polity Economy | Chemistry Biology | Physics | various Useful for UPSC | PCS | SSC (CGL, CPO, CHSL, MTS, GD) | HSSC (CET) Delhi Police (Constable, Head Constable) | RAILWAY | DSSSB | CDS | ARMY UP Police (Sub-Inspector, Constable, Jail Warden) NDA | BANK AIRFORCE (X&Y) | DSSSB | KVS | TET | UP PET
+       </td>
+       <td style="vertical-align: top;"><img src="gk3.jpg" id="gk4"  style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+      Youth Competition Times is a leading competitive books publication that exists for last 32 years estd in 1983 previously this company was know as name with Adhunik Prakashan.But the same company is now famous with the name of Youth Competition Times. We publish books for all the competitive exam such as UPSC IAS Pre/Mains - GS & CSAT,CDS, UPSC CAPF AC UPPSC - Pre,Mains & GS & CSAT,UPSSSC -Previous Years Solved Papers with revised edition. SSC �SSC JE Civil,SSC JE Electrical,SSC JE Mechanical,SSC CGL,SSC CHSL, SSC Scientific Assistant & UPPCL,UPRVUNL JE ,AE Electrical,Civil,Mechanical,UPTET & TET Knowledge Bank UGC NET,JRF,Compulsory Paper I,History,Geography,Social Work, POLITICAL SCIENCE, Hindi II & III DRDO,BSNL,TTA Junior Engineer Exam & other competitive books.
+      </td>
+      <td style="vertical-align: top;"><img src="gk4.jpg" id="gk5"  style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+      <td>
+        This comprehensively revised 3rd Edition of NCERT General Studies is exclusively created as per the latest NCERT syllabus.<br>
+        this book is a one-stop compilation of the basic, elementary knowledge of all subjects that are tested in the Civil Services and State Services Examinations. Woven together in a reader-friendly manner, The book not only covers the entire syllabus for the Preliminary examination but also covers the latest NCERT syllabus of all subjects (General Science, Science and Technology, Indian Polity and Constitution, Geography, History and economy) from Class VI to XII. This book is a must read in order to acquire the basic knowledge required for the above-mentioned examinations. salient features: ? new section on art and Culture ? new section on world history ? in depth, class-wise content for each subject starting from Class VI to Class XII ? systematic presentation of the data and facts ? explanatory diagrams and tables for comparative study ? incorporations of maps for better understanding, wherever necessary ? model test papers for practice.
+     </td>
+     <td style="vertical-align: top;"><img src="gk5.jpg" id="gk6"  style="float: right; width: 200px;"></td>
+</tr>
+<tr>
+        <td>
+        The 2023 edition of ‘29 Years Topic-wise Solution of General Studies (Paper-I) of UPSC Civil Services Preliminary Examination’ is prepared strictly adhering to the latest syllabus. Key Features of this Book Categorization of questions according to topics Detailed explanation to the questions asked Explanation on options other than the correct one Additional information on the topics from which questions were asked Why Additional Information? UPSC never repeats its questions but touches upon the topics again from different aspects. By going through the additional information provided herein, aspirants will be able to answer other questions that could be asked from the topics in future. To comprehend in a better way the current pattern of questions which are interdisciplinary and multidisciplinary in nature. An in-depth analysis of the questions reveals that prior to 2000 the questions were straightforward; later they became interdisciplinary and for the last three years, majority of the questions are multidisciplinary in nature. For example, a question that asked about only Mughal architecture in the 90s changed to asking about Maratha architecture also in the same question, and in the past few years it has become a regular practice to ask about the geography or political conditions prevailing at that time. Therefore, the questions have become truly multidimensional. To address this, the book is segregated into different sections and 100+ topics that will enable the readers to adopt a holistic approach towards preparation. How to Read this Book Start with solving the questions asked before 2000 which were straightforward. Later move year-wise gradually and this way you will get accustomed to the pattern and changes taking place so that you can plan your study/strategy accordingly. etc
+       </td>
+       <td style="vertical-align: top;"><img src="gk6.jpg" style="float: right; width: 200px;"></td>
+</tr>
+</div>
+</body>
+</html>
